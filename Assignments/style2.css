@@ -1,0 +1,40 @@
+body {
+    background-color: #cccccc; /* light gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .center img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #000;
+  }
+  
+  .left {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+  

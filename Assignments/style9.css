@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    border: 3px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    opacity: 0.95;
+  }
+  
+  .card1 {
+    background-image: url('sci.jpg');
+  }
+  
+  .card2 {
+    background-image: url('art.png');
+  }
+  
+  .card3 {
+    background-image: url('com.webp');
+  }
+  
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .content p {
+    font-size: 16px;
+  }
+  
+  .content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .content a:hover {
+    background-color: #007c91;
+  }
+  
+  /* Pseudo element for placeholder example */
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Pseudo class example */
+  a:focus {
+    outline: 2px dashed yellow;
+  }
+  

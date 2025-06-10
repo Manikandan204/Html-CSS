@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .header {
+    background-color: #5A7738; /* Green */
+    height: 40px;
+  }
+  
+  .footer {
+    background-color: #1A2B5A; /* Dark Blue */
+    height: 30px;
+  }
+  
+  .image-cell {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-cell img {
+    width: 400px;
+    height: auto;
+    border: 2px solid #000;
+  }
+  
+  .side-cell {
+    width: 100px;
+  }
+  

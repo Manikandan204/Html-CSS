@@ -1,0 +1,36 @@
+.container-task1 {
+    display: flex;
+    width: 600px;
+    margin: 40px auto;
+  }
+  
+  .left-img img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .right-color {
+    width: 200px;
+    background-color: #00BFFF; /* Bright blue */
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 420px;
+    margin: 20px auto;
+  }
+  
+  .grid-container div {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .grid-container img {
+    width: 100px;
+    height: 100px;
+  }
+    
